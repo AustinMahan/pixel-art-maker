@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
   $("#canvas > div").mouseover(function() {
-      if(isDown) {
+      if (isDown) {
         $(this).css('background-color', currentColor);
       }
     });
